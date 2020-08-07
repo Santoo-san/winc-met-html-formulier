@@ -17,25 +17,14 @@
 
     <form name="contact" method="POST" data-netlify="true">
       <hr>
-      Naam <input type="text" value="voer hier je naam in" />
-      <br>
-      <br>
-      E-mail <input type="e-mail" value="voorbeeld@voorbeeld.nl" />
-      <br>
-      <br>
-      <textarea rows="10" cols="30">voer hier je verhaal in </textarea>
+      <label>Naam: <input name="naam" type="text" value="voer hier je naam in" /></label><br><br>
+      <label> E-mail: <input name="e-mail" type="e-mail" value="voorbeeld@voorbeeld.nl" /></label><br><br>
+      <label>vrij tekstveld <textarea name="tekst" rows="10" cols="30">voer hier je verhaal in </textarea></label>
       <hr>
-      <input type="date" />
-      <br>
-      <br>
-
-      Akkoord met het delen van de gegevens <input type="checkbox" />
-      <br>
-      <br>
+      <label> datum <input name="datum" type="date" /></label><br><br>
+      <label>Akkoord met het delen van de gegevens <input name="akkoord" type="checkbox" /></label><br><br>
       <hr>
-      <input type="submit" />
-      <br>
-      <br>
+      <button type="submit">Verzenden</button><br><br>
     </form>
   </main>
 
